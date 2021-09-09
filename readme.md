@@ -57,9 +57,9 @@ You will need to have a stencil made to make this board yourself. The SMD part f
 | J4, J5                             |       2x |                     |                           | 2.54mm      | Connector, 1x8, pin header |
 | J6                                 |       1x |                     |                           | 2.54mm      | Connector, 1x6, pin header |
 | J7, J8, LED0, LED1, LED2, LED3, LED4, LED5, LED6, LED7, LED8, LED9, LED10, LED11, LED12, LED13, LED14, LED15, MTX-0x0, MTX-0x1, MTX-0x2, MTX-0x3, MTX-1x0, MTX-1x1, MTX-1x2, MTX-1x3, MTX-2x0, MTX-2x1, MTX-2x2, MTX-2x3, MTX-3x0, MTX-3x1, MTX-3x2, MTX-3x3 |      34x | B2B-XH-A(LF)(SN)    | JST                       | 2.50mm      | Connector, 1x2 |
-| J9, J10, SOL0, SOL1, SOL2, SOL3, SOL4, SOL5, SOL6, SOL7 |      10x | B2P-VH              | JST                       | 3.96mm      | Connector, 1x2 |
+| J9, J10, SOL0, SOL1, SOL2, SOL3, SOL4, SOL5, SOL6, SOL7 |      10x | B2P-VH _or_ 1-1123723-3 | JST _or_ TE Connectivity | 3.96mm      | Connector, 1x2 |
 | JP1, JP2                           |       2x |                     |                           | 2.54mm      | Jumper wire |
-| SOL0, SOL2                         |       2x | B3P-VH              | JST                       | 3.96mm      | Connector, 1x3 |
+| SOL0, SOL2                         |       2x | B3P-VH _or_ 1-1123723-2 | JST _or_ TE Connectivity | 3.96mm      | Connector, 1x3 |
 | Q1, Q2, Q3, Q4, Q5, Q6, Q7, Q8     |       8x | IRL540NPBF          | Infineon / IR             | TO-220      | MOSFET, 100V, 36A |
 | R1                                 |       1x | CRCW06034K70JNEAC   | Vishay / Dale             | 0603        | Resistor, 4.7kΩ |
 | R2, R3                             |       2x | CRCW06031K00FKEAC   | Vishay / Dale             | 0603        | Resistor, 1kΩ |
@@ -69,6 +69,17 @@ You will need to have a stencil made to make this board yourself. The SMD part f
 | U1                                 |       1x | ATmega328P-AU       | Microchip Technology      | TQFP-32     | Microcontroller |
 | U2                                 |       1x | PCA9685PW,112       | NXP Semiconductors        | TSSOP-28    | PWM driver |
 | Y1                                 |       1x | CSTNE16M0V53L00ZR0  | Murata Electronics        | -           | Resonator, 16MHz, 15pF |
+
+### Pin headers
+
+You can use either the [JST VH series](https://www.jst-mfg.com/product/detail_e.php?series=262) pin headers or the TE Connectivity Economy Power series pin headers. These pin headers are known to fit, other 3.96mm pin pitch pin headers might also fit.
+
+ - Order the JST SVH-21T-P1.1 crimp contacts (0.34mm² - 0.75mm²) for use with the JST pin headers
+ - Order JST VHR-2N connector housing for the JST B2P-VH pin header
+ - Order JST VHR-3N connector housing for the JST B3P-VH pin header
+ - Order the [TE Connectivity 1123721-2](https://www.te.com/usa-en/product-1123721-2.html) crimp contacts (0.34mm² - 0.75mm²) for use with the TE Connectivity pin headers
+ - Order the [TE Connectivity 1-1123722-2](https://www.te.com/usa-en/product-1-1123722-2.html) connector housing for the [TE Connectivity 1-1123723-2](https://www.te.com/usa-en/product-1-1123723-2.html) pin header
+ - Order the [TE Connectivity 1-1123722-3](https://www.te.com/usa-en/product-1-1123722-3.html) connector housing for the [TE Connectivity 1-1123723-3](https://www.te.com/usa-en/product-1-1123723-3.html) pin header
 
 ## Pictures
 
